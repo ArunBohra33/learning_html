@@ -1,0 +1,14 @@
+/* main-blue color -  #1ca3c8 */
+/* blue light color - #73c4bc */
+/* color dark grey - #6d6d6d */
+/* colro light grey - #dfe1e1 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  background-color: red;
+}
