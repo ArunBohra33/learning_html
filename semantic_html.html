@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      h1 {
+        /* color: #ff0000; HEXADECIMAL COLOR CODE -- RR GG BB */
+        color: rgb(93, 84, 228); /* red, green, blue */
+        background-color: rgba(199, 199, 199, 0.8);
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      .nav-link {
+      }
+
+      #primary-heading {
+      }
+    </style>
+  </head>
+  <!-- HEAD contains information mainly for the browser -->
+  <body>
+    <h1 id="primary-heading">📝 FIRST BLOG</h1>
+
+    <!-- <div class="navbar"> - no meaning -->
+    <!-- <nav> - semantic tag && tells browser that it is a navbar on the webpage -->
+    <nav>
+      <a class="nav-link" href="">Home</a>
+      <a class="nav-link" href="">All blogs</a>
+      <a class="nav-link" href="">About Us</a>
+      <a class="nav-link" href="">Contact</a>
+    </nav>
+    <!-- <a href="https://www.google.com" target="_blank">Google link</a> -->
+
+    <main>
+      <h2>Intro to HTML</h2>
+
+      <!-- <img src="https://i.stack.imgur.com/ShsIw.jpg?s=256&g=1" alt="" /> - IMAGE HOSTED ON OTHER SERVERS -->
+      <img
+        src="./img/profile.jpg"
+        alt="Author Profile"
+        height="40"
+        width="40"
+      />
+      <p>
+        <i>&mdash; by <b>Arun Bohra</b></i>
+      </p>
+      <!-- https://i.stack.imgur.com/ShsIw.jpg?s=256&g=1 -->
+
+      <img
+        src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg"
+        alt="Post main img"
+        width="500"
+      />
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In est
+        mollitia quia ea? Officia reprehenderit, magnam ducimus ad magni aliquam
+        error aliquid itaque sunt ea iste quaerat distinctio consequatur fugiat.
+      </p>
+
+      <h3>What is HTML?</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+        voluptates accusamus ipsa deserunt dolore distinctio porro dolorem
+        itaque excepturi molestias alias velit obcaecati at consequatur facere
+        nemo cum doloribus iste hic ipsam ducimus quod quidem. Est similique
+        odit mollitia ducimus sit repellendus doloremque ipsa, asperiores
+        molestias iusto porro consequatur? Tempora.
+      </p>
+
+      <h3>What does HTML have?</h3>
+      <ol>
+        <!-- ordered list -->
+
+        <li>It has headings</li>
+        <li>It has images</li>
+        <li>It has structue</li>
+      </ol>
+    </main>
+
+    <aside>
+      <h3>Other related posts</h3>
+      <ul>
+        <!-- unordered list -->
+        <li>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+            alt="HTML img"
+            height="100px"
+          />
+          <span><a href="#">Learn HTML</a></span>
+        </li>
+        <br />
+        <br />
+        <li>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+            alt="NODE JS img"
+            height="100px"
+          />
+          <a href="#">Learn NodeJS</a>
+        </li>
+      </ul>
+    </aside>
+
+    <footer>&copy; Copyright by Arun Bohra 2021</footer>
+  </body>
+</html>
